@@ -8,6 +8,7 @@ import Register from './pages/Register';
 import CarList from './pages/CarList';
 import CarDetail from './pages/CarDetail';
 import AddCar from './pages/AddCar';
+import    Docs  from './pages/Docs';
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
             <Route path="/cars" element={<CarList />} />
             <Route path="/cars/:id" element={<CarDetail />} />
             <Route path="/add-car" element={<AddCar />} />
+            <Route path="/api/docs" element={<Docs />} />
+
           </Routes>
         </div>
         <Footer />
